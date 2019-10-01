@@ -197,3 +197,6 @@ n_hidden = 5
 scores = evaluate_algorithm(dataset, back_propagation, n_folds, l_rate, n_epoch, n_hidden)
 print('Scores: %s' % scores)
 print('Mean Accuracy: %.3f%%' % (sum(scores)/float(len(scores))))
+#####OUTPUT#######
+##Scores: [77.12418300653596, 74.50980392156863]
+##Mean Accuracy: 75.817%
